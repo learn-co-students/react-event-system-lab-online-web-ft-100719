@@ -6,7 +6,7 @@ export default class EyesOnMe extends React.Component {
         super()
 
     }
-    
+
     handleFocus = () => {
         console.log("Good!")
     }
@@ -18,7 +18,7 @@ export default class EyesOnMe extends React.Component {
     render(){
         return(
             <div>
-                <button onFocus={this.handleFocus} onBlur={this.handleBlur}></button>
+                <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Eyes On Me</button>
             </div>
         )
     }
